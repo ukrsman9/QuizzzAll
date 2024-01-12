@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".testEngleski1_1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:layout_marginBottom="470dp"
+        android:text="@string/text_pitanja"
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/cb_1"
+        android:text="@string/_1"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="170dp"
+
+        />
+
+    <CheckBox
+        android:id="@+id/cb_2"
+        android:text="@string/_2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="230dp"
+
+        />
+
+    <CheckBox
+        android:id="@+id/cb_3"
+        android:text="@string/_3"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="290dp"
+
+        />
+
+    <CheckBox
+        android:id="@+id/cb_4"
+        android:text="@string/_4"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="350dp"
+
+        />
+    <Button
+        android:id="@+id/daljeCB"
+        android:text="dalje"
+
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>

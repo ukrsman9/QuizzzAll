@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Engleski">
+
+
+    <ImageView
+        android:layout_width="368dp"
+        android:layout_height="109dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="300dp"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/uciEngleski1"
+        android:background="@drawable/uci"
+        android:layout_width="172dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="215dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/igrajEngleski"
+        android:background="@drawable/igraj"
+
+        android:layout_width="172dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"/>
+
+    <ImageView
+        android:id="@+id/toHemija"
+        android:background="@drawable/hemija"
+
+        android:layout_width="172dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="390dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:background="#E5E5E5"
+        android:padding="0dp"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="470dp"
+        android:gravity="center"
+        android:text="Sponzor poruke : Quizzzall"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:background="#E5E5E5"
+        android:padding="5dp"
+        android:paddingBottom="20dp"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="510dp"
+        android:gravity="center"
+        android:text="Čuvajmo prirodu"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="172dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal|bottom"
+
+        android:layout_marginLeft="170dp"
+        android:layout_marginBottom="10dp"
+
+        android:src="@drawable/exit"
+        />
+
+
+    <ImageView
+        android:layout_width="172dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginLeft="117dp"
+        android:layout_marginBottom="10dp"
+
+        android:src="@drawable/setings"
+        />
+
+
+</FrameLayout>

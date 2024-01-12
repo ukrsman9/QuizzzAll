@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigacija"
+    app:startDestination="@id/engleski">
+
+    <fragment
+        android:id="@+id/hemija"
+        android:name="com.example.quizzzall.hemija"
+        android:label="fragment_hemija"
+        tools:layout="@layout/fragment_hemija" >
+        <action
+            android:id="@+id/action_hemija_to_uciHemija"
+            app:destination="@id/uciHemija" />
+        <action
+            android:id="@+id/action_hemija_to_testHemija"
+            app:destination="@id/testHemija" />
+        <action
+            android:id="@+id/action_hemija_to_engleski"
+            app:destination="@id/engleski" />
+    </fragment>
+    <fragment
+        android:id="@+id/uciHemija"
+        android:name="com.example.quizzzall.uciHemija"
+        android:label="fragment_uci_hemija"
+        tools:layout="@layout/fragment_uci_hemija" />
+    <fragment
+        android:id="@+id/testHemija"
+        android:name="com.example.quizzzall.testHemija"
+        android:label="fragment_test_hemija"
+        tools:layout="@layout/fragment_test_hemija" >
+        <action
+            android:id="@+id/action_testHemija_to_testHemija1"
+            app:destination="@id/testHemija1" />
+    </fragment>
+    <fragment
+        android:id="@+id/testHemija1"
+        android:name="com.example.quizzzall.testHemija1"
+        android:label="fragment_test_hemija1"
+        tools:layout="@layout/fragment_test_hemija1" >
+        <action
+            android:id="@+id/action_testHemija1_to_testHemija1_1"
+            app:destination="@id/testHemija1_1" />
+        <action
+            android:id="@+id/action_testHemija1_self"
+            app:destination="@id/testHemija1"
+            app:launchSingleTop="false" />
+        <action
+            android:id="@+id/action_testHemija1_self2"
+            app:destination="@id/testHemija1" />
+    </fragment>
+    <fragment
+        android:id="@+id/testHemija1_1"
+        android:name="com.example.quizzzall.testHemija1_1"
+        android:label="fragment_test_hemija1_1"
+        tools:layout="@layout/fragment_test_hemija1_1" >
+        <action
+            android:id="@+id/action_testHemija1_1_to_testHemija1_2"
+            app:destination="@id/testHemija1_2" />
+        <action
+            android:id="@+id/action_testHemija1_1_to_testHemija1"
+            app:destination="@id/testHemija1" />
+        <action
+            android:id="@+id/action_testHemija1_1_self"
+            app:destination="@id/testHemija1_1" />
+    </fragment>
+    <fragment
+        android:id="@+id/testHemija1_2"
+        android:name="com.example.quizzzall.testHemija1_2"
+        android:label="fragment_test_hemija1_2"
+        tools:layout="@layout/fragment_test_hemija1_2" >
+        <action
+            android:id="@+id/action_testHemija1_2_to_testHemija1"
+            app:destination="@id/testHemija1" />
+    </fragment>
+    <fragment
+        android:id="@+id/engleski"
+        android:name="com.example.quizzzall.Engleski"
+        android:label="fragment_engleski"
+        tools:layout="@layout/fragment_engleski" >
+        <action
+            android:id="@+id/action_engleski_to_testEngleski"
+            app:destination="@id/testEngleski" />
+        <action
+            android:id="@+id/action_engleski_to_uciEngleski2"
+            app:destination="@id/uciEngleski2" />
+    </fragment>
+    <fragment
+        android:id="@+id/testEngleski"
+        android:name="com.example.quizzzall.testEngleski"
+        android:label="fragment_test_engleski"
+        tools:layout="@layout/fragment_test_engleski" >
+        <action
+            android:id="@+id/action_testEngleski_to_testEngleski1"
+            app:destination="@id/testEngleski1" />
+        <action
+            android:id="@+id/action_testEngleski_to_testEngleski2"
+            app:destination="@id/testEngleski2" />
+    </fragment>
+    <fragment
+        android:id="@+id/testEngleski1"
+        android:name="com.example.quizzzall.testEngleski1"
+        android:label="fragment_test_engleski1"
+        tools:layout="@layout/fragment_test_engleski1" >
+        <action
+            android:id="@+id/action_testEngleski1_self"
+            app:destination="@id/testEngleski1" />
+        <action
+            android:id="@+id/action_testEngleski1_to_REZULTATI"
+            app:destination="@id/REZULTATI" />
+    </fragment>
+    <fragment
+        android:id="@+id/REZULTATI"
+        android:name="com.example.quizzzall.REZULTATI"
+        android:label="fragment_r_e_z_u_l_t_a_t_i"
+        tools:layout="@layout/fragment_r_e_z_u_l_t_a_t_i" >
+        <action
+            android:id="@+id/action_REZULTATI_to_testEngleski"
+            app:destination="@id/testEngleski" />
+        <action
+            android:id="@+id/action_REZULTATI_to_engleski"
+            app:destination="@id/engleski" />
+        <action
+            android:id="@+id/action_REZULTATI_to_uciEngleski2"
+            app:destination="@id/uciEngleski2" />
+    </fragment>
+    <fragment
+        android:id="@+id/testEngleski2"
+        android:name="com.example.quizzzall.testEngleski2"
+        android:label="fragment_test_engleski2"
+        tools:layout="@layout/fragment_test_engleski2" >
+        <action
+            android:id="@+id/action_testEngleski2_to_REZULTATI"
+            app:destination="@id/REZULTATI" />
+        <action
+            android:id="@+id/action_testEngleski2_self"
+            app:destination="@id/testEngleski2" />
+    </fragment>
+    <fragment
+        android:id="@+id/uciEngleski2"
+        android:name="com.example.quizzzall.uciEngleski"
+        android:label="fragment_uci_engleski"
+        tools:layout="@layout/fragment_uci_engleski" >
+        <action
+            android:id="@+id/action_uciEngleski2_to_uciEngleski1"
+            app:destination="@id/uciEngleski1" />
+    </fragment>
+    <fragment
+        android:id="@+id/uciEngleski1"
+        android:name="com.example.quizzzall.uciEngleski1"
+        android:label="fragment_uci_engleski1"
+        tools:layout="@layout/fragment_uci_engleski1" />
+</navigation>

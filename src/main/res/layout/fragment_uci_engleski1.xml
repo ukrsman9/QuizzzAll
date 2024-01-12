@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uciEngleski1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+
+        android:text="Questions with LIKE and HOW"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:textSize="22sp"
+
+        android:text="The word like is used in different ways to ask questions. "
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:textSize="22sp"
+        android:text="To ask about personality:"
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="180dp"
+        android:text="What is he like?"
+        android:textSize="22sp"
+            android:textStyle="italic"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="210dp"
+        android:text="To ask about physical appearance or resemblance:"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textStyle="bold"
+
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="270dp"
+        android:text="What does he look like?/Who does he look like?"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textStyle="italic"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="330dp"
+        android:text="To ask about preferences"
+        android:textSize="22sp"
+        android:textStyle="bold"
+
+         />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="360dp"
+        android:text="What would you like to eat?"
+        android:textSize="22sp"
+        android:textStyle="italic"
+
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400dp"
+        android:text="To ask about hobbies:"
+        android:textSize="22sp"
+        android:textStyle="bold
+"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="430dp"
+        android:text="What does he like doing?"
+        android:textSize="22sp"
+        android:textStyle="italic"
+
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="490dp"
+        android:gravity="center"
+        android:text="How is used to ask about somebody’s health: How is your mother?"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+
+    <ImageView
+        android:id="@+id/kuci3_1"
+
+        android:layout_width="63dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal|bottom"
+
+        android:layout_marginRight="170dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/back" />
+
+
+</FrameLayout>

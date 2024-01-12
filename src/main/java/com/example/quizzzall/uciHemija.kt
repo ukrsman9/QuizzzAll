@@ -1,0 +1,27 @@
+package com.example.quizzzall
+
+import android.os.Bundle
+import androidx.fragment.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.Button
+import androidx.navigation.fragment.findNavController
+
+class uciHemija : Fragment() {
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?,
+    ): View? {
+
+        val view = inflater.inflate(R.layout.fragment_uci_hemija, container, false)
+        val button =view.findViewById<Button>(R.id.kuci1)
+        button.setOnClickListener{
+            findNavController().navigate(R.id.hemija)
+
+        }
+        return view
+    }
+
+}

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quizzzall</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hemija">Hemija</string>
+    <string name="quizzzall">Quizzzall</string>
+    <string name="uci">uci</string>
+    <string name="igraj">igraj</string>
+    <string name="uci_hemijui">uci hemijui</string>
+    <string name="home">home</string>
+    <string name="lekcija_1">lekcija 1</string>
+    <string name="lekcija_2">lekcija 2</string>
+    <string name="lekcija_3">lekcija 3</string>
+    <string name="lekcija_4">lekcija 4</string>
+    <string name="test_hemijui">test hemijui</string>
+    <string name="test_1">test_1</string>
+    <string name="engleski">Engleski</string>
+    <string name="izaberi">izaberi</string>
+    <string name="text_pitanja">text pitanja</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="pitanje">pitanje</string>
+    <string name="rezultati">rezultati</string>
+    <string name="pocni">pocni</string>
+</resources>

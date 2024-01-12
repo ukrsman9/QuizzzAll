@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:ignore="ScrollViewCount"
+    tools:context=".testHemija1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+
+        <TextView
+            android:id="@+id/tv_q"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/pitanje"
+            android:textColor="#363A43"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tv_option1"
+
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+
+        android:layout_margin="0dp"
+
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="Apple" />
+
+    <Button
+        android:id="@+id/tv_option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="Apple" />
+
+
+    <Button
+        android:id="@+id/tv_option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="Apple" />
+
+    <Button
+        android:id="@+id/tv_option4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="Apple" />
+
+<ActionMenuView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginStart="10dp"
+    >
+
+
+    <Button
+        android:id="@+id/REZULTATI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="@string/rezultati"
+        android:textColor="#311B92"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/dugme"
+
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="dalje"
+        android:textColor="#311B92"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/dugmeDubble"
+
+
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="tabela"
+        android:textColor="#311B92"
+        android:textSize="18sp"
+        android:visibility="invisible"
+
+        />
+
+
+    </ActionMenuView>
+
+</LinearLayout>
