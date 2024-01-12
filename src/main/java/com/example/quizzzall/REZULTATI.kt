@@ -22,7 +22,7 @@ class REZULTATI : Fragment()  {
         val rezNaz = view.findViewById<Button>(R.id.rezNaz)
 
         val tX1 = view.findViewById<TextView>(R.id.rezultati_1)
-        tX1.text= "broj Bodova: $rezultat"
+        tX1.text= "number of points : $rezultat"
 
         rezNaz.setOnClickListener{
             findNavController().navigate(R.id.action_REZULTATI_to_engleski)

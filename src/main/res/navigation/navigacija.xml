@@ -56,23 +56,11 @@
         android:label="fragment_test_hemija1_1"
         tools:layout="@layout/fragment_test_hemija1_1" >
         <action
-            android:id="@+id/action_testHemija1_1_to_testHemija1_2"
-            app:destination="@id/testHemija1_2" />
-        <action
             android:id="@+id/action_testHemija1_1_to_testHemija1"
             app:destination="@id/testHemija1" />
         <action
             android:id="@+id/action_testHemija1_1_self"
             app:destination="@id/testHemija1_1" />
-    </fragment>
-    <fragment
-        android:id="@+id/testHemija1_2"
-        android:name="com.example.quizzzall.testHemija1_2"
-        android:label="fragment_test_hemija1_2"
-        tools:layout="@layout/fragment_test_hemija1_2" >
-        <action
-            android:id="@+id/action_testHemija1_2_to_testHemija1"
-            app:destination="@id/testHemija1" />
     </fragment>
     <fragment
         android:id="@+id/engleski"
@@ -93,7 +81,8 @@
         tools:layout="@layout/fragment_test_engleski" >
         <action
             android:id="@+id/action_testEngleski_to_testEngleski1"
-            app:destination="@id/testEngleski1" />
+            app:destination="@id/testEngleski1"
+            app:enterAnim="@anim/animacija_eng_test" />
         <action
             android:id="@+id/action_testEngleski_to_testEngleski2"
             app:destination="@id/testEngleski2" />
@@ -105,7 +94,9 @@
         tools:layout="@layout/fragment_test_engleski1" >
         <action
             android:id="@+id/action_testEngleski1_self"
-            app:destination="@id/testEngleski1" />
+            app:destination="@id/testEngleski1"
+            app:enterAnim="@anim/animacija_eng_test"
+            app:exitAnim="@anim/animacija_eng_test" />
         <action
             android:id="@+id/action_testEngleski1_to_REZULTATI"
             app:destination="@id/REZULTATI" />
@@ -135,7 +126,8 @@
             app:destination="@id/REZULTATI" />
         <action
             android:id="@+id/action_testEngleski2_self"
-            app:destination="@id/testEngleski2" />
+            app:destination="@id/testEngleski2"
+            app:enterAnim="@anim/animacija_eng_test" />
     </fragment>
     <fragment
         android:id="@+id/uciEngleski2"
@@ -151,4 +143,9 @@
         android:name="com.example.quizzzall.uciEngleski1"
         android:label="fragment_uci_engleski1"
         tools:layout="@layout/fragment_uci_engleski1" />
+    <fragment
+        android:id="@+id/PROBA"
+        android:name="com.example.quizzzall.PROBA"
+        android:label="fragment_p_r_o_b_a"
+        tools:layout="@layout/fragment_p_r_o_b_a" />
 </navigation>

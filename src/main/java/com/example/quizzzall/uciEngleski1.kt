@@ -16,10 +16,8 @@ class uciEngleski1 : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_uci_engleski1, container, false)
-        var back = view.findViewById<ImageView>(R.id.kuci3_1)
-        back.setOnClickListener{
-            findNavController().navigate(R.id.uciEngleski2)
-        }
+
+
 
         return view
     }

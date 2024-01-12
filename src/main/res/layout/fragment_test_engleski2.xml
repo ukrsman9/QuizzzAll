@@ -192,17 +192,7 @@
         android:gravity="center"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/dalje2"
-            android:layout_width="210dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:backgroundTint="#002254"
-            android:text="dalje"
-            android:textColor="@color/white"
-            android:textSize="18sp"
 
-            />
 
         <Button
             android:id="@+id/dugmeDubble1_2"
@@ -211,11 +201,22 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:backgroundTint="#002254"
-            android:text="@string/rezultati"
+            android:text="results"
             android:textColor="@color/white"
             android:textSize="18sp"
 
+            />
 
+        <Button
+            android:id="@+id/dalje2"
+
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#002254"
+            android:text="next"
+            android:textColor="@color/white"
+            android:textSize="18sp"
 
             />
 

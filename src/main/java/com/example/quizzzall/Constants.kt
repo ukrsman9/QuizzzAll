@@ -99,13 +99,17 @@ object pitanjaEngleski{
 
         )
         listaPitanja.add(qu3)
-        val qu4 = ConstantsEngleski(4,"Choose the correct answer:- Can you help me ______ my glasses?",
+
+
+
+
+        val qu4 = ConstantsEngleski(4,"Choose the correct answer:- Can you help me ______ my glasses? ",
             "pay back",
             "look for",
             "look at",
             "None of the above",
 
-        )
+            )
         listaPitanja.add(qu4)
         val qu5 = ConstantsEngleski(5,
             " Choose the correct answer: - Please ______ the litter form the floor.",
@@ -114,7 +118,7 @@ object pitanjaEngleski{
             "put on",
             "None of the above",
 
-        )
+            )
         listaPitanja.add(qu5)
 
         val qu6 = ConstantsEngleski(6,
@@ -126,7 +130,6 @@ object pitanjaEngleski{
 
             )
         listaPitanja.add(qu6)
-
 
 
 
@@ -208,7 +211,8 @@ object pitanjaEngleski2{
     {
         val listaPitanja =ArrayList<ConstantsEngleski>()
 
-        val q1 = ConstantsEngleski(1,"Choose the correct option:  Mia is ______ than John.  ",
+        val q1 = ConstantsEngleski(1,"Choose the correct option:  \n" +
+                                                    "Mia is ______ than John.  ",
             "busier",
             "busyer",
             "the busiest",
@@ -216,7 +220,7 @@ object pitanjaEngleski2{
         )
         listaPitanja.add(q1)
         val qe2 = ConstantsEngleski(2,"Choose the correct option: \n" +
-                "A cheetah can run _____ a zebra.  ",
+                                                "A cheetah can run _____ a zebra.  ",
             "more fast than",
             "much faster than",
             "fastest",
@@ -225,7 +229,7 @@ object pitanjaEngleski2{
             )
         listaPitanja.add(qe2)
         val qu3 = ConstantsEngleski(3,"Choose the correct option: \n" +
-                                             "Dubai isn't as ______ as this town.    ",
+                                             " Dubai isn't as ______ as this town.",
             "dryer",
             "drier",
             "dry",
@@ -252,6 +256,16 @@ object pitanjaEngleski2{
 
             )
         listaPitanja.add(qu5)
+        val qu6=ConstantsEngleski(6,"Venice is _______ place in the word.",
+            "lovelier",
+            "the lovelier",
+            "loveliest",
+            "the loveliest"
+        )
+        listaPitanja.add(qu6)
+
+
+
 
 
         return listaPitanja
@@ -276,6 +290,11 @@ object tacanodgovorE2{
 
         val odgovor5 = Odgovori("the most ambitious")
         listaOdgovoraa.add(odgovor5)
+
+        val odgovor6 = Odgovori("the loveliest")
+        listaOdgovoraa.add(odgovor6)
+
+
 
         return listaOdgovoraa
     } }

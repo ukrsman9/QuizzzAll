@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:ignore="ScrollViewCount"
+    android:background="#F5F5F5"
+    tools:context=".testiranjeBaze">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/BazaPitanje1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="text "
+            android:textColor="#363A43"
+            android:textSize="22sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/BazaOdgovorB1"
+
+
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="Apple"
+        android:textAllCaps="false"/>
+
+
+
+
+    <Button
+        android:id="@+id/BazaOdgovorB2"
+
+
+        android:backgroundTint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="Apple"
+        android:textAllCaps="false"/>
+
+    <EditText
+        android:id="@+id/ubaci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ubaci"
+        android:layout_margin="10dp"
+
+         />
+
+
+
+
+
+    <ActionMenuView
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BazaDalje"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#002254"
+            android:text="dalje"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+
+            />
+
+        <Button
+            android:id="@+id/BazadugmeDubble1"
+
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#002254"
+            android:text="@string/rezultati"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+
+
+
+            />
+
+    </ActionMenuView>
+
+
+
+</LinearLayout>

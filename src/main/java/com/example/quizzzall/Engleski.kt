@@ -33,12 +33,23 @@ class Engleski : Fragment() {
 
         val button3 = view.findViewById<ImageView>(R.id.toHemija)
         button3.setOnClickListener{
-            Toast.makeText(activity,"U Pripremi ",Toast.LENGTH_SHORT).show()
+            Toast.makeText(activity,"in preparation",Toast.LENGTH_SHORT).show()
 
         }
+
+        val exit = view.findViewById<ImageView>(R.id.exit)
+        exit.setOnClickListener{
+               System.exit(0)
+           }
+
+
+
 
 
 
         return view
 
-    }}
+    }
+
+
+}

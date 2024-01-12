@@ -203,13 +203,13 @@ class testEngleski2 : Fragment() {
         dugmeDouble1.setOnClickListener{
             // findNavController().navigate(R.id.REZULTATI)
             //tX2.text="$rezultat"
-            Toast.makeText(activity,"Broj poena : $rezultat", Toast.LENGTH_SHORT).show()
+            Toast.makeText(activity,"number of points : $rezultat", Toast.LENGTH_SHORT).show()
 
         }
 
         dalje.setOnClickListener{
 
-            if (fantazija-2>4)
+            if (fantazija-2>5)
             {
                 findNavController().navigate(R.id.action_testEngleski2_to_REZULTATI)
 

@@ -18,6 +18,15 @@ class testEngleski : Fragment() {
     ): View? {
          val view = inflater.inflate(R.layout.fragment_test_engleski, container, false)
 
+        pozicija = 1
+         pozicija1 = 0
+
+         rezultat=0
+        gaser  =0
+        fantazija=2
+
+          pozicijaEC=0
+          pozicijaER=0
 
         val back =view.findViewById<ImageView>(R.id.kuci2)
         back.setOnClickListener{
@@ -67,15 +76,7 @@ class testEngleski : Fragment() {
             Toast.makeText(activity,"u pripremi ", Toast.LENGTH_SHORT).show()
         }
 
-        var pozicija = 1
-        var pozicija1 = 0
 
-        var rezultat=0
-        var gaser  =0
-        var fantazija=2
-
-        var  pozicijaEC=0
-        var  pozicijaER=0
 
         return view
     }}

@@ -23,6 +23,7 @@ class testEngleski1 : Fragment() {
         // Inflate the layout for this fragment
 
 
+
         val view = inflater.inflate(R.layout.fragment_test_engleski1, container, false)
 
         val tX1 = view.findViewById<TextView>(R.id.tvqETC)
@@ -207,7 +208,7 @@ class testEngleski1 : Fragment() {
         dugmeDouble1.setOnClickListener{
             // findNavController().navigate(R.id.REZULTATI)
             //tX2.text="$rezultat"
-            Toast.makeText(activity,"Broj poena : $rezultat",Toast.LENGTH_SHORT).show()
+            Toast.makeText(activity,"number of points : $rezultat",Toast.LENGTH_SHORT).show()
 
         }
 

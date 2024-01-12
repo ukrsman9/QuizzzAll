@@ -1,31 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".uciEngleski1">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFffff">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textSize="30sp"
+        android:textSize="27sp"
 
         android:text="Questions with LIKE and HOW"
         android:textStyle="bold|italic"
         android:textColor="@color/black"
     />
+
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+
         android:layout_marginTop="70dp"
-        android:textSize="22sp"
+        android:gravity="center"
+
 
         android:text="The word like is used in different ways to ask questions. "
-        android:textStyle="bold|italic"
-        />
+        android:textSize="22sp"
+        android:textStyle="bold|italic" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -124,7 +131,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="490dp"
+        android:layout_marginTop="470dp"
         android:gravity="center"
         android:text="How is used to ask about somebody’s health: How is your mother?"
         android:textSize="22sp"
@@ -132,16 +139,7 @@
 
 
 
-    <ImageView
-        android:id="@+id/kuci3_1"
-
-        android:layout_width="63dp"
-        android:layout_height="47dp"
-        android:layout_gravity="center_horizontal|bottom"
-
-        android:layout_marginRight="170dp"
-        android:layout_marginBottom="5dp"
-        android:src="@drawable/back" />
 
 
 </FrameLayout>
+</ScrollView>
